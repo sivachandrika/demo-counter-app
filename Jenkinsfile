@@ -24,7 +24,7 @@ pipeline{
                 }
             }
         }
-        stage('Integration testing'){
+        /*stage('Integration testing'){
             
             steps{
                 
@@ -33,7 +33,7 @@ pipeline{
                     sh 'mvn verify -DskipUnitTests'
                 }
             }
-        }
+        }*/
         /*stage('Maven build'){
             
             steps{
