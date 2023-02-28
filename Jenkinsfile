@@ -60,7 +60,7 @@ pipeline{
                     
                     script{
                         
-                        waitForQualityGate abortPipeline: false, credentialsId: 'sonarqube-auth'
+                        waitForQualityGate abortPipeline: true, credentialsId: 'sonarqube-auth'
                     }
                 }
             }
